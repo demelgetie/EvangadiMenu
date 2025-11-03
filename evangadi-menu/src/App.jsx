@@ -1,13 +1,15 @@
-import './App.css'
+// import "./App.css";
+import './commonResource/style.css'
+import Header from "./Components/Header.jsx";
+import FoodItem from "./Components/FoodItem.jsx";
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
- <> 
- <div>test</div>
- </>
-  )
+    <div className="all-container">
+      <Header />
+      <FoodItem />
+    </div>
+  );
 }
 
-export default App
+export default App;
