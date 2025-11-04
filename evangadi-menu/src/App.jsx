@@ -1,5 +1,4 @@
-// import "./App.css";
-import './commonResource/style.css'
+import "./App.css";
 import Header from "./Components/Header.jsx";
 import FoodItem from "./Components/FoodItem.jsx";
 

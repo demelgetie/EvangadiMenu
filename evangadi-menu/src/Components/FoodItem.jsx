@@ -1,20 +1,22 @@
 import { Component } from "react";
-import SingleFood from "./SingleFood.jsx";
+import FoodItemList from "./FoodItemList.jsx";
 import menu from "../commonResource/data.js";
 
 class FoodItem extends Component {
   render() {
     return (
       <div className="foods-container">
-        {menu.map(({ id, img, title, price, desc }) => (
-          <SingleFood
-            key={id}
-            img={img}
-            title={title}
-            price={price}
-            desc={desc}
-          />
-        ))}
+        {menu.map(({ id, img, title, price, desc }) => {
+          return (
+            <FoodItemList
+              key={id}
+              img={img}
+              title={title}
+              price={price}
+              desc={desc}
+            />
+          );
+        })}
       </div>
     );
   }

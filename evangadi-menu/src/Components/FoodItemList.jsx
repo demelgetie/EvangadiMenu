@@ -1,6 +1,6 @@
 import { Component } from "react";
 
-class SingleFood extends Component {
+class FoodItemList extends Component {
   render() {
     const { img, title, price, desc } = this.props;
     return (
@@ -36,4 +36,4 @@ class SingleFood extends Component {
   }
 }
 
-export default SingleFood;
+export default FoodItemList;
