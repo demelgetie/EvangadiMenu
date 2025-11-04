@@ -22,11 +22,11 @@ class FoodItem extends Component {
 
 export default FoodItem;
 
-let call = ()=> {
-  return(
+// let call = ()=> {
+//   return(
 
-  )
-}
+//   )
+// }
 
 // menu.map((item) => {
 //   const isExpensive = item.price > 50;
