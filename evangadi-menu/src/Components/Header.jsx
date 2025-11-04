@@ -4,7 +4,7 @@ class Hedear extends Component {
   render() {
     return (
       <>
-        <header class="title">
+        <header className="title">
           <h1>Evangadi Menu</h1>
         </header>
       </>

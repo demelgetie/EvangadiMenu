@@ -17,6 +17,15 @@ class FoodItem extends Component {
             />
           );
         })}
+
+        {/* {menu.map((item, index) => {
+          return (<FoodItemList key={index} {...item} />;
+        )}
+        )} */}
+
+        {/* {menu.map((FoodType) => {
+          return <FoodItemList food={FoodType} />;
+        })} */}
       </div>
     );
   }
